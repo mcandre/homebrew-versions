@@ -3,13 +3,6 @@ class Boot2docker133 < Formula
   # Boot2docker and docker are generally updated at the same time.
   # Please update the version of docker too
   url "https://github.com/boot2docker/boot2docker-cli.git", :tag => "v1.3.3"
-  head "https://github.com/boot2docker/boot2docker-cli.git"
-
-  bottle do
-    sha1 "67313ebf6f2cd0653d7f017ae783e92da1c9e44f" => :yosemite
-    sha1 "68fe92df4290f9494ab6ce10cfe37e5b154b2abc" => :mavericks
-    sha1 "ccdf2d4ed162f2bb49141e89853933dc8b64e9a1" => :mountain_lion
-  end
 
   depends_on "docker" => :recommended
   depends_on "go" => :build

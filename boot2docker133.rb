@@ -1,5 +1,3 @@
-require "formula"
-
 class Boot2docker133 < Formula
   homepage "https://github.com/boot2docker/boot2docker-cli"
   # Boot2docker and docker are generally updated at the same time.

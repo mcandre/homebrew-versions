@@ -4,7 +4,7 @@ class Boot2docker133 < Formula
   # Please update the version of docker too
   url "https://github.com/boot2docker/boot2docker-cli.git", :tag => "v1.3.3", :revision => "81bd2efb357cf84edb928883c0df43b1334e2860"
 
-  depends_on "docker" => :recommended
+  depends_on "docker133" => :recommended
   depends_on "go" => :build
 
   def install
